@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:id="@+id/reminder_view">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingBottom="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_date_range_black_24dp"
+            android:drawableLeft="@drawable/ic_date_range_black_24dp"
+            android:drawablePadding="5dp"
+            android:text="@string/date_reminder"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:padding="5dp"
+            android:id="@+id/reminder_date_txt"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:textColor="@android:color/black"
+            android:paddingStart="5dp"
+            android:paddingLeft="5dp"
+            android:id="@+id/reminder_date"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_access_time_black_24dp"
+            android:drawableLeft="@drawable/ic_access_time_black_24dp"
+            android:drawablePadding="5dp"
+            android:text="@string/time_reminder"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:padding="5dp"
+            android:id="@+id/reminder_time_txt"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:textColor="@android:color/black"
+            android:paddingStart="5dp"
+            android:paddingLeft="5dp"
+            android:id="@+id/reminder_time"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:paddingBottom="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_notifications_black_24dp"
+            android:drawableLeft="@drawable/ic_notifications_black_24dp"
+            android:drawablePadding="5dp"
+            android:text="@string/notification_reminder"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:padding="5dp"
+            android:id="@+id/reminder_notification_txt"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:paddingStart="5dp"
+            android:paddingLeft="5dp"
+            android:textColor="@android:color/black"
+            android:id="@+id/reminder_notification_display"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingBottom="5dp"
+        android:paddingStart="5dp"
+        android:paddingLeft="5dp"
+        android:text="@string/notes_reminder"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:textColor="@android:color/black"
+        android:id="@+id/reminder_notes_txt"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:layout_margin="5dp"
+        android:background="@android:color/transparent"
+        android:textSize="22sp"
+        android:hint="@string/reminder_notes_hint"
+        android:id="@+id/reminder_notes"/>
+</LinearLayout>

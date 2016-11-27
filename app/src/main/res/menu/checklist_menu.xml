@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/clear_checked"
+        android:title="@string/delete_checked"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/edit_title"
+        android:title="@string/edit_title"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/delete_note"
+        android:title="@string/delete_checklist"
+        app:showAsAction="never"/>
+
+</menu>

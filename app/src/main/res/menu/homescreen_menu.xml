@@ -1,0 +1,53 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".HomeScreen">
+
+    <item
+        android:title="@string/filter_text"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_filter_list_black_24dp">
+        <menu>
+            <group>
+                <item
+                    android:title="@string/filterby_text"
+                    android:enabled="false"/>
+            </group>
+            <item
+                android:id="@+id/menu_filter_none"
+                android:title="@string/filter_none" />
+            <item
+                android:id="@+id/menu_filter_text"
+                android:title="@string/filter_textnotes" />
+            <item
+                android:id="@+id/menu_filter_list"
+                android:title="@string/filter_lists" />
+            <item
+                android:id="@+id/menu_filter_checklist"
+                android:title="@string/filter_checklists" />
+            <item
+                android:id="@+id/menu_filter_reminder"
+                android:title="@string/filter_reminders" />
+        </menu>
+    </item>
+    <item
+        android:title="@string/sort_text"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_sort_by_alpha_black_24dp">
+        <menu>
+            <group>
+                <item
+                    android:title="@string/sortby_text"
+                    android:enabled="false"/>
+            </group>
+            <item
+                android:id="@+id/menu_sort_date"
+                android:title="@string/sort_date"/>
+            <item
+                android:id="@+id/menu_sort_name"
+                android:title="@string/sort_name"/>
+        </menu>
+    </item>
+    <item android:title="@string/about_text"
+          android:id="@+id/about"
+          app:showAsAction="never"/>
+</menu>

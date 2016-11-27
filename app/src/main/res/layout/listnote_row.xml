@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="7.5dp">
+
+    <ImageView
+        android:id="@+id/bullet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:paddingTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginStart="5dp"
+        android:src="@drawable/ic_fiber_manual_record_black_18dp"
+        android:contentDescription="Bullet Point"/>
+
+    <EditText
+        android:id="@+id/listnote_bullet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/bullet"
+        android:layout_toRightOf="@+id/bullet"
+        android:layout_marginLeft="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="2.5dp"
+        android:layout_marginBottom="2.5dp"
+        android:background="@android:color/transparent"
+        android:textSize="22sp"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/listnote_bullet_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/bullet"
+        android:layout_toRightOf="@+id/bullet"
+        android:layout_marginLeft="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="2.5dp"
+        android:layout_marginBottom="2.5dp"
+        android:textColor="@android:color/black"
+        android:textSize="22sp"
+        android:hint="@string/list_hint"/>
+
+    <ImageView
+        android:id="@+id/delete_listitem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:paddingTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginEnd="5dp"
+        android:src="@drawable/ic_delete_black_24dp"
+        android:contentDescription="Delete Item"/>
+
+</RelativeLayout>

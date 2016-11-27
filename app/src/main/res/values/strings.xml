@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Notes</string>
+
+    <string name="about_text">About</string>
+    <string name="about_message">App created by: <b>Varun Shah</b>
+        \n\nIf you find this app useful, please take a moment to rate it.\nThank you!</string>
+    <string name="sort_text">Sort</string>
+    <string name="sortby_text"><b>Sort by:</b></string>
+    <string name="sort_date">Date</string>
+    <string name="sort_name">Name</string>
+    <string name="filter_text">Filter</string>
+    <string name="filterby_text"><b>Filter by:</b></string>
+    <string name="filter_none">None</string>
+    <string name="filter_textnotes">Text Notes</string>
+    <string name="filter_lists">Lists</string>
+    <string name="filter_checklists">Checklists</string>
+    <string name="filter_reminders">Reminders</string>
+    <string name="notetype_text">Type of Note:</string>
+    <string name="notetype_textnote">Text</string>
+    <string name="notetype_list">List</string>
+    <string name="notetype_checklist">Checklist</string>
+    <string name="notetype_reminder">Reminder</string>
+
+    <string name="edit_title">Edit Title</string>
+    <string name="delete_note">Delete Note</string>
+    <string name="delete_list">Delete List</string>
+    <string name="delete_checklist">Delete Checklist</string>
+    <string name="save_note">Save Note</string>
+    <string name="edit_textnote">Edit Note</string>
+    <string name="delete_checked">Delete Checked</string>
+    <string name="delete_reminder">Delete Reminder</string>
+    <string name="date_reminder">Date:</string>
+    <string name="time_reminder">Time:</string>
+    <string name="notification_reminder">Notification:</string>
+    <string name="notes_reminder">Notes:</string>
+    <string name="textnote_hint">Enter notes&#8230;</string>
+    <string name="list_hint">Type here&#8230;</string>
+    <string name="reminder_notes_hint">Type additional notes here&#8230;</string>
+    <string name="notification_none">None</string>
+
+</resources>

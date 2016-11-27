@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/textnote_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:textSize="22sp"
+        android:layout_margin="16dp"
+        android:hint="@string/textnote_hint"
+        android:background="@android:color/transparent"/>
+
+    <TextView
+        android:id="@+id/textnote_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:layout_margin="16dp"
+        android:textColor="@android:color/black"
+        android:scrollbars="vertical"/>
+
+</LinearLayout>

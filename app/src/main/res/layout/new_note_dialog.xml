@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/input_dialog_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginBottom="10dp"
+        android:inputType="textCapSentences" >
+    </EditText>
+
+    <TextView
+        android:id="@+id/note_type_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/notetype_text"
+        android:textColor="@android:color/black"
+        android:ems="10"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginBottom="5dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginBottom="10dp"
+        android:baselineAligned="false">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <RadioButton
+                android:id="@+id/text_note"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/notetype_textnote"
+                android:checked="true"/>
+
+            <RadioButton
+                android:id="@+id/reminder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/notetype_reminder" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <RadioButton
+                android:id="@+id/list_note"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/notetype_list"/>
+
+            <RadioButton
+                android:id="@+id/checklist"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/notetype_checklist" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
