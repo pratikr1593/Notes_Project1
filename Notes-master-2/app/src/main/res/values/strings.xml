@@ -2,7 +2,7 @@
     <string name="app_name">Notes</string>
 
     <string name="about_text">About</string>
-    <string name="about_message">App created by: <b>Varun Shah</b>
+    <string name="about_message">App created by: <b>Pratik Ratnaparkhi</b>
         \n\nIf you find this app useful, please take a moment to rate it.\nThank you!</string>
     <string name="sort_text">Sort</string>
     <string name="sortby_text"><b>Sort by:</b></string>
